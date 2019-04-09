@@ -3,7 +3,7 @@
 This repo will contain the code for ICASSP 2019, speaker identifcation (http://www.robots.ox.ac.uk/~vgg/research/speakerID/).
 
 This repo contains a Keras implementation of the paper,     
-[Utterance-level Aggregation For Speaker Recognition In The Wild (Xie et al., ICASSP 2019) (Oral)](http://www.robots.ox.ac.uk/~vgg/publications/2019/Xie19a/xie19a.pdf).
+[Utterance-level Aggregation For Speaker Recognition In The Wild (Xie et al., ICASSP 2019) (Oral)](https://arxiv.org/pdf/1902.10107.pdf).
 
 ### Dependencies
 - [Python 2.7.15](https://www.continuum.io/downloads)
@@ -41,6 +41,28 @@ for example, the model trained with ResNet34s trained by adam with softmax, and 
         VoxCeleb1-Test-E: 3.24      VoxCeleb1-Test-E-Cleaned: 3.13
         VoxCeleb1-Test-H: 5.17      VoxCeleb1-Test-H-Cleaned: 5.06
 
+### Licence
+The code and mode are available to download for commercial/research purposes under a Creative Commons Attribution-ShareAlike 4.0 International License(https://creativecommons.org/licenses/by/4.0/).
+
+      Downloading this code implies agreement to follow the same conditions for any modification 
+      and/or re-distribution of the dataset in any form.
+
+      Additionally any entity using this code agrees to the following conditions:
+
+      THIS CODE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+      IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+      TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+      PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+      HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+      EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+      PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+      PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+      LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+      NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+      SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+      Please cite the papers below if you make use of the dataset and code.
+
 ### Citation
 ```
 @InProceedings{Xie19,
@@ -64,5 +86,3 @@ for example, the model trained with ResNet34s trained by adam with softmax, and 
   year         = "2018",
 }
 ```
-
-
